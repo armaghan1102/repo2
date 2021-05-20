@@ -1,6 +1,6 @@
 package com.ulan.timetable.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.ulan.timetable.fragments.SettingsFragment;

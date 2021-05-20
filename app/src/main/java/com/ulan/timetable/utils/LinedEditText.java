@@ -15,8 +15,8 @@ import com.ulan.timetable.R;
  */
 @SuppressLint("AppCompatCustomView")
 public class LinedEditText extends EditText {
-    private final Rect mRect;
-    private final Paint mPaint;
+    private Rect mRect;
+    private Paint mPaint;
 
     @SuppressLint("ResourceAsColor")
     public LinedEditText(Context context, AttributeSet attrs) {

@@ -2,7 +2,7 @@ package com.ulan.timetable.activities;
 
 import android.content.Context;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.SparseBooleanArray;
 import android.view.ActionMode;
 import android.view.Menu;
@@ -23,7 +23,7 @@ import java.util.ArrayList;
 
 public class HomeworksActivity extends AppCompatActivity {
 
-    private final Context context = this;
+    private Context context = this;
     private ListView listView;
     private HomeworksAdapter adapter;
     private DbHelper db;

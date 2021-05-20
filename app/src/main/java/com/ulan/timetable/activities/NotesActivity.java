@@ -2,7 +2,7 @@ package com.ulan.timetable.activities;
 
 import android.content.Context;
 import android.content.Intent;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.SparseBooleanArray;
 import android.view.ActionMode;
@@ -25,7 +25,7 @@ import java.util.ArrayList;
 public class NotesActivity extends AppCompatActivity {
 
     public static String KEY_NOTE = "note";
-    private final Context context = this;
+    private Context context = this;
     private ListView listView;
     private DbHelper db;
     private NotesAdapter adapter;

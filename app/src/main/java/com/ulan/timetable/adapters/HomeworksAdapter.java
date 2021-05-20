@@ -1,9 +1,9 @@
 package com.ulan.timetable.adapters;
 
 import android.app.Activity;
-import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.appcompat.widget.PopupMenu;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.PopupMenu;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -27,11 +27,11 @@ import java.util.Objects;
  */
 public class HomeworksAdapter extends ArrayAdapter<Homework> {
 
-    private final Activity mActivity;
-    private final int mResource;
-    private final ArrayList<Homework> homeworklist;
+    private Activity mActivity;
+    private int mResource;
+    private ArrayList<Homework> homeworklist;
     private Homework homework;
-    private final ListView mListView;
+    private ListView mListView;
 
     private static class ViewHolder {
         TextView subject;

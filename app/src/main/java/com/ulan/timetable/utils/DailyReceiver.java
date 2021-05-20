@@ -9,8 +9,8 @@ import android.graphics.BitmapFactory;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
-import androidx.annotation.RequiresApi;
-import androidx.core.app.NotificationCompat;
+import android.support.annotation.RequiresApi;
+import android.support.v4.app.NotificationCompat;
 
 import com.ulan.timetable.activities.MainActivity;
 import com.ulan.timetable.R;
@@ -65,7 +65,7 @@ public class DailyReceiver extends BroadcastReceiver {
 
     @RequiresApi(api = Build.VERSION_CODES.N)
     private String getLessons(int day) {
-        StringBuilder lessons = new StringBuilder();
+        StringBuilder lessons = new StringBuilder("");
         String currentDay = getCurrentDay(day);
 
         db.getWeek(currentDay).forEach(week -> {

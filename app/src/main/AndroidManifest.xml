@@ -13,6 +13,21 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.ActivitySplash"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"
@@ -37,7 +52,7 @@
             android:parentActivityName=".activities.NotesActivity" />
         <activity
             android:name=".activities.TeachersActivity"
-            android:label="Teachers"
+            android:label="Contacts"
             android:parentActivityName=".activities.MainActivity" />
         <activity
             android:name=".activities.SettingsActivity"
@@ -49,7 +64,7 @@
         </activity>
         <activity
             android:name=".activities.ExamsActivity"
-            android:label="Exams"
+            android:label="Events"
             android:parentActivityName=".activities.MainActivity" />
 
         <receiver
@@ -65,10 +80,6 @@
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
             </intent-filter>
         </receiver>
-
-        <activity
-            android:name=".activities.MainActivity"
-            android:label="Home Page" />
 
     </application>
 

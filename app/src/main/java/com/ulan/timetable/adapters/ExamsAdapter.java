@@ -1,9 +1,9 @@
 package com.ulan.timetable.adapters;
 
 import android.app.Activity;
-import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.appcompat.widget.PopupMenu;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.PopupMenu;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -27,11 +27,11 @@ import java.util.Objects;
  */
 public class ExamsAdapter extends ArrayAdapter<Exam> {
 
-    private final Activity mActivity;
-    private final int mResource;
-    private final ArrayList<Exam> examlist;
+    private Activity mActivity;
+    private int mResource;
+    private ArrayList<Exam> examlist;
     private Exam exam;
-    private final ListView mListView;
+    private ListView mListView;
 
     private static class ViewHolder {
         TextView subject;
@@ -42,7 +42,7 @@ public class ExamsAdapter extends ArrayAdapter<Exam> {
         CardView cardView;
         ImageView popup;
     }
-//constructor
+
     public ExamsAdapter(Activity activity, ListView listView, int resource, ArrayList<Exam> objects) {
         super(activity, resource, objects);
         mActivity = activity;

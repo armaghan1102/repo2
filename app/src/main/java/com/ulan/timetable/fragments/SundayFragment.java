@@ -1,7 +1,7 @@
 package com.ulan.timetable.fragments;
 
-import androidx.fragment.app.Fragment;
-import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.os.Bundle;;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,7 +22,7 @@ public class SundayFragment extends Fragment {
     private DbHelper db;
     private ListView listView;
     private WeekAdapter adapter;
-    private final int listposition = 0;
+    private int listposition = 0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

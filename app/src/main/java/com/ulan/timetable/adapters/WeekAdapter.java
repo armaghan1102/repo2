@@ -2,9 +2,9 @@ package com.ulan.timetable.adapters;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
-import androidx.annotation.NonNull;
-import androidx.cardview.widget.CardView;
-import androidx.appcompat.widget.PopupMenu;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.PopupMenu;
 import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -29,11 +29,11 @@ import java.util.Objects;
  */
 public class WeekAdapter extends ArrayAdapter<Week> {
 
-    private final Activity mActivity;
-    private final int mResource;
-    private final ArrayList<Week> weeklist;
+    private Activity mActivity;
+    private int mResource;
+    private ArrayList<Week> weeklist;
     private Week week;
-    private final ListView mListView;
+    private ListView mListView;
 
     private static class ViewHolder {
         TextView subject;

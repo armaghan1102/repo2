@@ -1,7 +1,7 @@
 package com.ulan.timetable.fragments;
 
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,8 +13,7 @@ import com.ulan.timetable.R;
 import com.ulan.timetable.utils.FragmentHelper;
 
 
-public class
-WednesdayFragment extends Fragment {
+public class WednesdayFragment extends Fragment {
 
     public static final String KEY_WEDNESDAY_FRAGMENT = "Wednesday";
     private DbHelper db;

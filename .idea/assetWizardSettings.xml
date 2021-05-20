@@ -67,7 +67,6 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="C:\Users\Admin\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
@@ -80,8 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Admin\Desktop\lessons\submission\stage-3\logo.png" />
-                                                <entry key="scalingPercent" value="56" />
+                                                <entry key="imagePath" value="C:\Users\Admin\Desktop\lessons\submission\stage-3\logo.jpeg" />
+                                                <entry key="scalingPercent" value="71" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -114,7 +113,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="dcc93d" />
                                     </map>
                                   </option>
                                 </PersistentState>
