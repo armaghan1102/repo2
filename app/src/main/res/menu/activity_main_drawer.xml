@@ -18,7 +18,7 @@
         <item
             android:id="@+id/exams"
             android:icon="@drawable/baseline_school_black_18"
-            android:title="@string/exams" />
+            android:title="@string/event" />
 
         <item
             android:id="@+id/teachers"

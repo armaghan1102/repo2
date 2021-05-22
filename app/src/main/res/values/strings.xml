@@ -48,17 +48,17 @@
     <string name="choose_date">Choose date</string>
     <string name="choose_color">Choose color</string>
 
-    <!-- Homeworks Activity strings -->
-    <string name="title_activity_homeworks">HomeworksActivity</string>
-    <string name="homeworks">Homeworks</string>
+    <!-- Tasks Activity strings -->
+    <string name="title_activity_homeworks">Tasks</string>
+    <string name="homeworks">Tasks</string>
     <string name="select_date">Select date</string>
     <string name="deadline_dialog">Deadline:</string>
     <string name="deadline">Deadline</string>
     <string name="description_dialog">Description:</string>
-    <string name="desctiption">Desctiption</string>
+    <string name="desctiption">Description</string>
     <string name="date_error">Date field can not be empty!</string>
-    <string name="edit_homework">Edit homework</string>
-    <string name="add_homework">Add homework</string>
+    <string name="edit_homework">Edit task</string>
+    <string name="add_homework">Add task</string>
     <string name="deadline_snackbar">"Deadline field can not be empty!</string>
     <string name="date">Date</string>
 
@@ -71,10 +71,10 @@
     <string name="title">Title</string>
     <string name="saved">Saved</string>
 
-    <!-- Teachers Activity strings -->
-    <string name="teachers">Teachers</string>
-    <string name="add_teacher">Add teacher</string>
-    <string name="edit_teacher">Edit teacher</string>
+    <!-- Contact Activity strings -->
+    <string name="teachers">Contacts</string>
+    <string name="add_teacher">Add contact</string>
+    <string name="edit_teacher">Edit contact</string>
     <string name="name_dialog">Name:</string>
     <string name="post_dialog">Post:</string>
     <string name="phonenumber_dialog">Phone:</string>
@@ -84,9 +84,9 @@
     <string name="post">Post</string>
     <string name="email">Email</string>
 
-    <!-- Exams Activity strings -->
-    <string name="exams">Exams</string>
-    <string name="add_exam">Add exam</string>
+    <!-- Event Activity strings -->
+    <string name="event">Events</string>
+    <string name="add_event">Add event</string>
     <string name="date_dialog">Date:</string>
     <string name="time_dialog">Time:</string>
 

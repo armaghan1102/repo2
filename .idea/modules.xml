@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TimeTable-with-SplashScleen-master.iml" filepath="$PROJECT_DIR$/.idea/modules/TimeTable-with-SplashScleen-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TimeTable-with-SplashScleen-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TimeTable-with-SplashScleen-master.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repo2.iml" filepath="$PROJECT_DIR$/.idea/modules/repo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/repo2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/repo2.app.iml" />
     </modules>
   </component>
 </project>

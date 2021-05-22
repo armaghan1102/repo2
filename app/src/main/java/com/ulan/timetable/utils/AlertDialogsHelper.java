@@ -937,7 +937,7 @@ public class AlertDialogsHelper {
         });
 
         final AlertDialog.Builder alert = new AlertDialog.Builder(activity);
-        alert.setTitle(activity.getResources().getString(R.string.add_exam));
+        alert.setTitle(activity.getResources().getString(R.string.add_event));
         alert.setCancelable(false);
         final Button cancel = alertLayout.findViewById(R.id.cancel);
         final Button save = alertLayout.findViewById(R.id.save);
@@ -1064,7 +1064,7 @@ public class AlertDialogsHelper {
         });
 
         final AlertDialog.Builder alert = new AlertDialog.Builder(activity);
-        alert.setTitle(activity.getResources().getString(R.string.add_exam));
+        alert.setTitle(activity.getResources().getString(R.string.add_event));
         alert.setCancelable(false);
         final Button cancel = alertLayout.findViewById(R.id.cancel);
         final Button save = alertLayout.findViewById(R.id.save);
